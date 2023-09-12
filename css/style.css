@@ -1,0 +1,53 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* selector universal */
+*{
+    margin:0 ;
+    padding: 0%;
+}
+a{
+    margin-left: 30px;
+   
+    color: blue;
+}
+#option_one, #option_2, #option_3 {
+    color: #dbee6f;
+
+}
+
+.gruop_options {
+    background-color: blueviolet;
+    margin-top: 5px;
+}
+.group_class {
+    padding: 10px;
+}
+.gruop_options:hover {
+    background-color: #dbee6f;
+    color: rgb(0, 0, 0);
+}
+[disabled]{
+    background-color: #dbee6f;
+    
+}
+#papa {
+    border: 10px double red;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 0px 20px 10px;
+}
+#papa >.hermanos + .hermanos {
+    color: hsl(0, 92%, 51%);
+}
+#papa a {
+    color: rgb(177, 177, 177);
+}
+#papa > #etiquete > a {
+    color: #e00909;
+}
